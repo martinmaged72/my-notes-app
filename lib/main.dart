@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-theme: ThemeData.dark(),//lone albackground badl m3ml fe albackground
+theme: ThemeData(brightness: Brightness.dark,
+fontFamily: 'Poppins',),//ThemeData.dark(), lone albackground badl m3ml fe albackground
       home: const NotesView(),
     );
   }
